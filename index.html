@@ -1,0 +1,450 @@
+<!--##################################################################################
+    Luis Iván Bazán Flores    
+    2024 The University of Memphis
+
+    ".HTML Script for my personal website"
+##################################################################################-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <!------------------------------------------------- Header -------------------------------------------->
+    <header>
+        <div class="header-left">
+            <h1>Welcome to my Website</h1>
+        </div>
+        <div class="header-right"></div>
+            <nav>
+                <ul>
+                    <li><a href="#Home" class="tab-link" data-target="Home">Home</a></li>
+                    <li><a href="#Research" class="tab-link" data-target="Research">Research</a></li>
+                    <li><a href="#CV" class="tab-link" data-target="CV">CV</a></li>
+                    <li><a href="#Gallery" class="tab-link" data-target="Gallery">Gallery</a></li>
+                    <li><a href="#Contact" class="tab-link" data-target="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        <div>
+    </header>
+
+
+
+
+
+    <!-------------------------------------------- Home Tab Contents -------------------------------------->
+    <div class="tab-content active" id="Home">
+        <!-- Profile and Biography Section -->
+        <div class="profile-biography-container">
+            <div class="profile-info">
+                <img src="https://ivabazann.github.io/ivabazann.github.io/Images/Profile.JPEG" alt="Profile" class="profile-pic">
+                <div class="name">Luis Iván Bazán Flores</div>
+                <div class="job">Graduate Research Assistant</div>
+                <div class="job">Center for Earthquake Research and Information (CERI)</div>
+                <div class="job">The University of Memphis</div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/luis-iv%C3%A1n-baz%C3%A1n-flores-4b7b03a3" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/ivabazann" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.memphis.edu/ceri/people/students.php" target="_blank"><i class="fas fa-globe"></i></a>
+                    <a href="https://orcid.org/0009-0003-6422-9410" target="_blank"><i class="fab fa-orcid"></i></a>
+                    <a href="#Contact" class="tab-link contact-link" data-target="Contact"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="Biography">
+                <h2>Biography</h2>
+                <div class="divider"></div>
+                <p>Welcome to my personal website! I'm a research assistant at the University of Memphis, working in the Earthquake Modeling and Visualization Lab. 
+                    My main research projects focus on crustal deformation and tectonic processes. I'm particularly interested in understanding how earthquakes 
+                    impact the stress state of surrounding faults and magmatic systems. My work aims to model their responses from short to long-term perspectives, 
+                    shedding light on the complex interactions that drive Earth's dynamic systems.</p>
+            </div>
+        </div>
+        
+        <!-- Lists Section -->
+        <div class="lists-container">
+            <div class="list">
+                <h2>Interests</h2>
+                <div class="divider"></div>
+                <ul>
+                    <li><i class="fas fa-laptop"></i> Crustal Deformation</li>
+                    <li><i class="fas fa-laptop"></i> Seismotectonics</li>
+                    <li><i class="fas fa-laptop"></i> Finite Element</li>
+                    <li><i class="fas fa-laptop"></i> Numerical Modeling</li>
+                </ul>
+            </div>
+            <div class="list">
+                <h2>Education</h2>
+                <div class="divider"></div>
+                <ul>
+                    <li><i class="fas fa-graduation-cap"></i> M.Sc. in Geophysics, 2024</li>
+                    <p> <a href="https://www.memphis.edu/ceri/study/index.php" target="_blank">The University of Memphis</a></p>
+                    <li><i class="fas fa-graduation-cap"></i> M.Sc. in Geophysics, 2018</li>
+                    <p> <a href="https://www.abdn.ac.uk/study/postgraduate-taught/degree-programmes/102/geophysics/" target="_blank">University of Aberdeen</a></p>
+                    <li><i class="fas fa-graduation-cap"></i> B.Sc. in Geophysical Engineering, 2016</li>
+                    <p> <a href="https://ingenieria.buap.mx/content/licenciatura-en-ingenier%C3%ADa-geof%C3%ADsica" target="_blank">Benemérita Universidad Autónoma de Puebla</a></p>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!------------------------------------------- Research Tab Contents ----------------------------------->
+    <div class="tab-content" id="Research">
+        <div class="research-container">
+            <!-- Publications subsection-->
+            <h2>Publications</h2>
+            <div class="divider"></div>
+            <ul class="research-list">
+                <li>Bazan Flores, L. I., C. Kyriakopoulos, D. D. Oglesby, A. J. Meltzner, T. K. Rockwell, J. M. Fletcher, & D. S. Brothers.
+                    (2024). <strong>Exploring the Dynamic Interactions between the Southern San Andreas Fault and a Normal Fault under the Salton Sea.</strong> 
+                    <em>Journal of Geophysical Research: Solid Earth.</em> (Submitted).</li>
+            </ul>
+            <!-- Research Interests subsection-->
+            <h2>Research Interests</h2>
+            <div class="divider"></div>
+            <ul class="research-list">
+                <li>Fault formation and rupture evolution.</li>
+                <li>Static and dynamic fault rupture modeling.</li>
+                <li>Earthquake stress transfer and effect on magmatic systems.</li>
+                <li>Crustal deformation.</li>
+                <li>Volcanic surface deformation.</li>
+            </ul>
+            <!-- Conference Presentations subsection-->
+            <h2>Conference Presentations</h2>
+            <div class="divider"></div>
+            <ul class="research-list">
+                <li><strong>Rupture Scenarios of the Southern San Andreas Fault Informed by Displacement History on Normal Faults under
+                    the Salton Sea.</strong> B. F. Luis Iván, C. Kyriakopoulos, D. D. Oglesby, A. J. Meltzner, T. K. Rockwell, J. M. Fletcher, and
+                    D. S. Brothers. <em>Abstract S22B-05 presented at 2023 AGU Fall Meeting, San Francisco, CA,11-15 December 2023.</em></li>
+                <li><strong>Rupture Scenarios of the Southern San Andreas Fault Informed by Displacement History on Normal Faults under
+                    the Salton Sea.</strong> B. F. Luis Iván, C. Kyriakopoulos, D. D. Oglesby, A. J. Meltzner, T. K. Rockwell, J. M. Fletcher, and
+                    D. S. Brothers. <em>Presented at NEDtalks Research Forum, University of Memphis, Memphis, TN, March 13, 2024.</em></li>
+            </ul>
+            <!-- Posters subsection-->
+            <h2>Posters</h2>
+            <div class="divider"></div>
+            <ul class="research-list">
+                <li><strong>Rupture Scenarios of the Southern San Andreas Fault Informed by Displacement History on Normal Faults under
+                    the Salton Sea.</strong> Luis Iván, C. Kyriakopoulos, D. D. Oglesby, A. J. Meltzner, T. K. Rockwell, J. M. Fletcher, and D. S.
+                    Brothers. <em>Presented at the 2024 University of Memphis Student Research Forum, Memphis, TN, March 25, 2024.</em></li>
+                <li><strong>Static Stress Changes in Magmatic Pathways Induced by Subduction Zone Earthquakes: A Parametric Study on
+                    the Influences of Material Heterogeneities and Fault Geometry.</strong> B. F. Luis Iván, C. Kyriakopoulos. <em>Presented at
+                    Sepertinite, Fluids and Plate Boundary Deformation in Subduction Zones Workshop, Montreal, Canada,1-3
+                    March 2024.</em></li>
+                <li><strong>Normal Fault Displacement History Provides Clues on Ruptures Along the Southern San Andreas Fault.</strong> B. F. Luis
+                    Iván, C. Kyriakopoulos, D. D. Oglesby, A. J. Meltzner, T. K. Rockwell, J. M. Fletcher, and D. S. Brothers. <em>Poster #108,
+                    presented at 2023 SCEC Annual Meeting, San Francisco, CA, 10-12 September 2023.</em> 
+                    <a href="https://central.scec.org/meetings/2023/am/poster/108" target="_blank">
+                    (https://central.scec.org/meetings/2023/am/poster/108)</a></li>
+                <li><strong>Static Stress Changes in Magmatic Pathways Induced by Subduction Zone Earthquakes, FEM Approach.</strong> B. F. Luis
+                    Iván, C. Kyriakopoulos. <em>Presented at the 2023 University of Memphis Student Research Forum, Memphis, TN,
+                    April 3, 2023.</em></li>
+                <li><strong>Dynamic Interactions between the Southern San Andreas Fault and Normal Faults under the Salton Sea.</strong> B. F. Luis
+                    Iván, C. Kyriakopoulos, D. D. Oglesby, A. J. Meltzner, T. K. Rockwell, J. M. Fletcher, and D. S. Brothers. <em>Presented
+                    at GAGE/SAGE 2023 Community Science Workshop, Pasadena, CA, 26-29 March 2023.</em>
+                    <a href="https://www.earthscope.org/app/uploads/2023/03/BazanFlores.pdf" target="_blank">
+                    (https://www.earthscope.org/app/uploads/2023/03/BazanFlores.pdf)</a></li>
+                <li><strong>Static Stress Changes in Magmatic Pathways Induced by Subduction Zone Earthquakes: A Parametric Study on
+                    the Influences of Material Heterogeneities and Fault Geometry.</strong> B. F. Luis Iván, C. Kyriakopoulos. <em>Abstract T32E-
+                    0219. Presented at 2022 AGU Fall Meeting, Chicago, Il,12-16 December 2022.</em></li>
+                <li><strong>Exploring the Dynamic Interactions between the Southern San Andreas Fault and Normal Faults under the Salton
+                    Sea.</strong> B. F. Luis Iván, C. Kyriakopoulos, D. D. Oglesby, A. J. Meltzner, T. K. Rockwell, J. M. Fletcher, and D. S.Brothers. 
+                    <em>Poster #178, presented at 2022 SCEC Annual Meeting, Palm Springs, CA, 11-14 September 2022.</em>
+                    <a href="https://central.scec.org/meetings/2022/am/poster/178" target="_blank">
+                    (https://central.scec.org/meetings/2022/am/poster/178)</a></li>
+                <li><strong>Dynamic Interactions Between the Southern San Andreas Fault and Normal Faults in the Brawley Seismic Zone.</strong>
+                    B. F. Luis Iván, C. Kyriakopoulos. <em>Abstract S55D-0180. Presented online at 2021 AGU Fall Meeting, New Orleans,
+                    LA and online everywhere,13-17 December 2021.</em></li>
+                <li><strong>Dynamic Interactions Between the Southern San Andreas Fault and Normal Faults in the Brawley Seismic Zone.</strong>
+                    B. F. Luis Iván, C. Kyriakopoulos, D. D. Oglesby, A. J. Meltzner, T. K. Rockwell, J. M. Fletcher, and D. S. Brothers.
+                    <em>Poster #146, presented online at 2021 SCEC Annual Meeting, 12-17 September 2021.</em>
+                    <a href="https://central.scec.org/meetings/2021/am/poster/146" target="_blank">
+                    (https://central.scec.org/meetings/2021/am/poster/146)</a></li>
+            </ul>
+            <!-- Outreach subsection-->
+            <h2>Outreach</h2>
+            <div class="divider"></div>
+            <ul class="research-list">
+                <li><strong>Earth Day 2023:</strong> Celebrating with Advisor and middle school students, employing the Earthquake Modeling and
+                    Visualization Lab’s tools, such as 3D printed models of active seismic faults in the New Madrid Seismic Zone and
+                    virtual reality googles.</li>
+                <li><strong>Earth Day 2022:</strong> Celebrating with Advisor and middle school students, employing the Earthquake Modeling and
+                    Visualization Lab’s tools, such as 3D printed models of active seismic faults in Southern California and virtual
+                    reality googles.</li>
+            </ul>
+        </div>
+    </div>
+    
+
+
+
+
+    <!-------------------------------------------- CV Tab Contents ---------------------------------------->
+    <div class="tab-content" id="CV">
+        <div class="cv-container">
+            <p class="additional-info">Luis Iván Bazán Flores</p>
+            <p class="download-cv"><i class="fas fa-file-download"></i> Download my CV<a href="Docs/CV_2024.pdf" target="_blank" class="cv-link">here</a>.</p>
+        </div>
+    </div>
+
+
+
+
+    <!------------------------------------------ Gallery Tab Contents ------------------------------------->
+    <div class="tab-content" id="Gallery">
+        <div class="gallery-container">
+            <div class="gallery">
+                <!-- Images separated by year -->
+                <div class="gallery-item">
+                    <h3>2023</h3>
+                    <div class="divider"></div>
+                    <div class="images">
+                        <img src="Images/2023/AGU_San_Francisco_2023_1.JPEG" alt="AGU_San_Francisco_2023_1">
+                        <img src="Images/2023/AGU_San_Francisco_2023_2.JPEG" alt="AGU_San_Francisco_2023_2">
+                        <img src="Images/2023/CERI_2023_1.JPEG" alt="CERI_2023_1">
+                        <img src="Images/2023/CERI_2023_2.JPEG" alt="CERI_2023_2">
+                        <img src="Images/2023/CERI_2023_3.JPEG" alt="CERI_2023_3">
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <h3>2022</h3>
+                    <div class="divider"></div>
+                    <div class="images">
+                        <img src="Images/2022/AGU_Chicago_2022_1.JPEG" alt="AGU_Chicago_2022_1">
+                        <img src="Images/2022/AGU_Chicago_2022_2.JPEG" alt="AGU_Chicago_2022_2">
+                        <img src="Images/2022/AGU_Chicago_2022_3.JPEG" alt="AGU_Chicago_2022_3">
+                        <img src="Images/2022/AGU_Chicago_2022_4.JPEG" alt="AGU_Chicago_2022_4">
+                        <img src="Images/2022/CERI_Earth_Day_2022.JPEG" alt="CERI_Earth_Day_2022">
+                        <img src="Images/2022/Fieldtrip_California_2022_1.JPEG" alt="Fieldtrip_California_2022_1">
+                        <img src="Images/2022/Fieldtrip_California_2022_2.JPEG" alt="Fieldtrip_California_2022_2">
+                        <img src="Images/2022/Fieldtrip_California_2022_3.JPEG" alt="Fieldtrip_California_2022_3">
+                        <img src="Images/2022/Fieldtrip_California_2022_4.JPEG" alt="Fieldtrip_California_2022_4">
+                        <img src="Images/2022/Fieldtrip_California_2022_5.JPEG" alt="Fieldtrip_California_2022_5">
+                        <img src="Images/2022/Fieldtrip_California_2022_6.JPEG" alt="Fieldtrip_California_2022_6">
+                        <img src="Images/2022/Fieldtrip_California_2022_7.JPEG" alt="Fieldtrip_California_2022_7">
+                        <img src="Images/2022/Fieldtrip_California_2022_8.JPEG" alt="Fieldtrip_California_2022_8">
+                        <img src="Images/2022/Fieldtrip_California_2022_9.JPEG" alt="Fieldtrip_California_2022_9">
+                        <img src="Images/2022/Memphis_Forum_2022_1.JPEG" alt="Memphis_Forum_2022_1">
+                        <img src="Images/2022/Memphis_Forum_2022_2.JPEG" alt="Memphis_Forum_2022_2">
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <h3>2021</h3>
+                    <div class="divider"></div>
+                    <div class="images">
+                        <img src="Images/2021/CERI_2021_1.JPEG" alt="CERI_2021_1">
+                            <img src="Images/2021/CERI_2021_2.JPEG" alt="CERI_2021_2">
+                        <img src="Images/2021/CERI_2021_3.JPEG" alt="CERI_2021_3">
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <h3>2020</h3>
+                    <div class="divider"></div>
+                    <div class="images">
+                        <img src="Images/2020/Consulting_2020_1.JPEG" alt="Consulting_2020_1">
+                        <img src="Images/2020/Consulting_2020_2.JPEG" alt="Consulting_2020_2">
+                        <img src="Images/2020/Consulting_2020_3.JPEG" alt="Consulting_2020_3">
+                        <img src="Images/2020/Consulting_2020_4.JPEG" alt="Consulting_2020_4">
+                        <img src="Images/2020/Consulting_2020_5.JPEG" alt="Consulting_2020_5">
+                        <img src="Images/2020/Consulting_2020_6.JPEG" alt="Consulting_2020_6">
+                        <img src="Images/2020/Consulting_2020_7.JPEG" alt="Consulting_2020_7">
+                        <img src="Images/2020/Consulting_2020_8.JPEG" alt="Consulting_2020_8">
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <h3>2019</h3>
+                    <div class="divider"></div>
+                    <div class="images">
+                        <img src="Images/2019/Consulting_2019_1.JPEG" alt="Consulting_2019_1">
+                        <img src="Images/2019/Consulting_2019_2.JPEG" alt="Consulting_2019_2">
+                        <img src="Images/2019/Consulting_2019_3.JPEG" alt="Consulting_2019_3">
+                        <img src="Images/2019/Consulting_2019_4.JPEG" alt="Consulting_2019_4">
+                        <img src="Images/2019/Consulting_2019_5.JPEG" alt="Consulting_2019_5">
+                        <img src="Images/2019/Consulting_2019_6.JPEG" alt="Consulting_2019_6">
+                        <img src="Images/2019/Consulting_2019_7.JPEG" alt="Consulting_2019_7">
+                        <img src="Images/2019/Consulting_2019_8.JPEG" alt="Consulting_2019_8">
+                        <img src="Images/2019/Consulting_2019_9.JPEG" alt="Consulting_2019_9">
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <h3>2018</h3>
+                    <div class="divider"></div>
+                    <div class="images">
+                        <img src="Images/2018/Aberdeen_Graduation_1.JPEG" alt="Aberdeen_Graduation_1">
+                        <img src="Images/2018/Aberdeen_Graduation_2.JPEG" alt="Aberdeen_Graduation_2">
+                        <img src="Images/2018/Aberdeen_Graduation_3.JPEG" alt="Aberdeen_Graduation_3">
+                        <img src="Images/2018/Aberdeen_Graduation_4.JPEG" alt="Aberdeen_Graduation_4">
+                        <img src="Images/2018/Aberdeen_people.JPEG" alt="Aberdeen_people">
+                        <img src="Images/2018/San_Giovani_Valdarmo_2018_1.JPEG" alt="San_Giovani_Valdarmo_2018_1">
+                        <img src="Images/2018/San_Giovani_Valdarmo_2018_2.JPEG" alt="San_Giovani_Valdarmo_2018_2">
+                        <img src="Images/2018/San_Giovani_Valdarmo_2018_3.JPEG" alt="San_Giovani_Valdarmo_2018_3">
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <h3>2017</h3>
+                    <div class="divider"></div>
+                    <div class="images">
+                        <img src="Images/2017/Aberdeen_2017_1.JPEG" alt="Aberdeen_2017_1">
+                        <img src="Images/2017/Aberdeen_2017_2.JPEG" alt="Aberdeen_2017_2">
+                        <img src="Images/2017/Aberdeen_2017_3.JPEG" alt="Aberdeen_2017_3">
+                        <img src="Images/2017/Aberdeen_2017_4.JPEG" alt="Aberdeen_2017_4">
+                        <img src="Images/2017/Aberdeen_2017_5.JPEG" alt="Aberdeen_2017_5">
+                        <img src="Images/2017/Aberdeen_2017_6.JPEG" alt="Aberdeen_2017_6">
+                        <img src="Images/2017/Aberdeen_2017_7.JPEG" alt="Aberdeen_2017_7">
+                        <img src="Images/2017/Aberdeen_2017_8.JPEG" alt="Aberdeen_2017_8">
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <h3>2016</h3>
+                    <div class="divider"></div>
+                    <div class="images">
+                        <img src="Images/2016/Graduacion_1.JPEG" alt="Graduacion_1">
+                        <img src="Images/2016/Graduacion_2.JPEG" alt="Graduacion_2">
+                        <img src="Images/2016/Pico_de_Orizaba_2016_1.JPEG" alt="Pico_de_Orizaba_2016_1">
+                        <img src="Images/2016/Pico_de_Orizaba_2016_2.JPEG" alt="Pico_de_Orizaba_2016_2">
+                        <img src="Images/2016/Pico_de_Orizaba_2016_3.JPEG" alt="Pico_de_Orizaba_2016_3">
+                        <img src="Images/2016/Pico_de_Orizaba_2016_4.JPEG" alt="Pico_de_Orizaba_2016_4">
+                        <img src="Images/2016/Pico_de_Orizaba_2016_5.JPEG" alt="Pico_de_Orizaba_2016_5">
+                        <img src="Images/2016/Pico_de_Orizaba_2016_6.JPEG" alt="Pico_de_Orizaba_2016_6">
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <h3>2015</h3>
+                    <div class="divider"></div>
+                    <div class="images">
+                        <img src="Images/2015/Hierve_el_agua_2015_1.JPEG" alt="Hierve_el_agua_2015_1">
+                        <img src="Images/2015/Hierve_el_agua_2015_2.JPEG" alt="Hierve_el_agua_2015_2">
+                        <img src="Images/2015/Hierve_el_agua_2015_3.JPEG" alt="Hierve_el_agua_2015_3">
+                        <img src="Images/2015/Hierve_el_agua_2015_4.JPEG" alt="Hierve_el_agua_2015_4">
+                        <img src="Images/2015/Hierve_el_agua_2015_5.JPEG" alt="Hierve_el_agua_2015_5">
+                        <img src="Images/2015/Hierve_el_agua_2015_6.JPEG" alt="Hierve_el_agua_2015_6">
+                        <img src="Images/2015/Hierve_el_agua_2015_7.JPEG" alt="Hierve_el_agua_2015_7">
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <h3>2014</h3>
+                    <div class="divider"></div>
+                    <div class="images">
+                        <img src="Images/2014/Playa_bruja_Tabasco_2014_1.JPEG" alt="Playa_bruja_Tabasco_2014_1">
+                        <img src="Images/2014/Playa_bruja_Tabasco_2014_2.JPEG" alt="Playa_bruja_Tabasco_2014_2">
+                        <img src="Images/2014/Playa_bruja_Tabasco_2014_3.JPEG" alt="Playa_bruja_Tabasco_2014_3">
+                        <img src="Images/2014/Playa_bruja_Tabasco_2014_4.JPEG" alt="Playa_bruja_Tabasco_2014_4">
+                        <img src="Images/2014/Playa_bruja_Tabasco_2014_5.JPEG" alt="Playa_bruja_Tabasco_2014_5">
+                        <img src="Images/2014/Playa_bruja_Tabasco_2014_6.JPEG" alt="Playa_bruja_Tabasco_2014_6">
+                        <img src="Images/2014/Playa_bruja_Tabasco_2014_7.JPEG" alt="Playa_bruja_Tabasco_2014_7">
+                        <img src="Images/2014/Playa_bruja_Tabasco_2014_8.JPEG" alt="Playa_bruja_Tabasco_2014_8">
+                        <img src="Images/2014/Playa_bruja_Tabasco_2014_9.JPEG" alt="Playa_bruja_Tabasco_2014_9">
+                        <img src="Images/2014/Popocatepetl_2014_1.JPEG" alt="Popocatepetl_2014_1">
+                        <img src="Images/2014/Popocatepetl_2014_2.JPEG" alt="Popocatepetl_2014_2">
+                        <img src="Images/2014/Popocatepetl_2014_3.JPEG" alt="Popocatepetl_2014_3">
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <h3>2013</h3>
+                    <div class="divider"></div>
+                    <div class="images">
+                        <img src="Images/2013/Real_de_14_2013_1.JPEG" alt="Real_de_14_2013_1">
+                        <img src="Images/2013/Real_de_14_2013_2.JPEG" alt="Real_de_14_2013_2">
+                        <img src="Images/2013/Real_de_14_2013_3.JPEG" alt="Real_de_14_2013_3">
+                        <img src="Images/2013/Real_de_14_2013_4.JPEG" alt="Real_de_14_2013_4">
+                        <img src="Images/2013/Real_de_14_2013_5.JPEG" alt="Real_de_14_2013_5">
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <h3>2012</h3>
+                    <div class="divider"></div>
+                    <div class="images">
+                        <img src="Images/2012/San_Agustin_Ahuehuetla_2012.JPEG" alt="San_Agustin_Ahuehuetla_2012">
+                            <img src="Images/2012/Tenzo_2012.JPEG" alt="Tenzo_2012">
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <h3>2011</h3>
+                    <div class="divider"></div>
+                    <div class="images">
+                        <img src="Images/2011/Sierra_Mixteca_2011.JPEG" alt="Sierra_Mixteca_2011">
+                    </div>
+                </div>
+            </div>
+        </div>     
+    </div>
+
+
+
+
+
+    <!------------------------------------------ Contact Tab Contents ------------------------------------->
+    <div class="tab-content" id="Contact">
+        <div class="contact-container">
+            <h4>Contact</h4>
+            <div class="contact-info">
+                <ul>
+                    <li><i class="fas fa-phone"></i> (901) 549-9857</li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:lbznflrs@memphis.edu" target="_blank">lbznflrs@memphis.edu</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="https://www.google.com/maps?q=3890+Central+Ave,+Memphis,+TN+38152" target="_blank">Memphis, TN</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.8352568776124!2d-89.9360835!3d35.1193986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887f857e565e3e8d%3A0xf7bcb6c98c7a3f7e!2s3890%20Central%20Ave%2C%20Memphis%2C%20TN%2038152!5e0!3m2!1sen!2sus!4v1698711592258!5m2!1sen!2sus"
+                    width="1000"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!---------------------------------------------- Lightbox Modal --------------------------------------->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <a class="lightbox-nav left">&#10094;</a> <!-- Left arrow -->
+        <a class="lightbox-nav right">&#10095;</a> <!-- Right arrow -->
+    </div>
+    <!------------------------------------------------- Footer -------------------------------------------->
+    <footer>
+        <p>&copy; 2024 Luis Iván Bazán Flores. All rights reserved.</p>
+    </footer>
+    <!----------------------------------------------- Javascript ------------------------------------------>
+    <script src="script.js"></script>
+</body>
+</html>
+
